@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CrystalsCollector</title>
+	<link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
+	<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Crystal Collector!</h1>
+	</header>	
+
+	<div id = "textbox">
+		<p>You will be given a random number at the start of the game.</p>
+		<br>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<br>
+		<p>You win the game by matcing your total score to the random number provided. You lose the game if your total score exceeds that random number.</p>
+		<br>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br>
+		<p>Each time the game starts, the game will change the values of each crystal.</p>
+	</div>	
+
+	<div id = "randomnumber"></div>	
+
+	<div id = "scorekeeper">
+		<div id = "wins"> Wins: </div>
+		<div id = "losses"> Losses: </div>
+	</div>	
+
+	<div class = "stones">
+		<ul class = "gems">
+			<img id = "daimond" src = 'assets/images/diamond.png' alt = 'diamond' style = 'height: 100px; width: 100px;'>
+			<img id = "ruby" src = 'assets/images/Ruby.jpg' alt = 'ruby' style = 'height: 100px; width: 100px;'>
+			<img id = "sapphire" src = 'assets/images/sapphire.jpeg' alt = 'sapphire' style = 'height: 100px; width: 100px;'>
+			<img id = "yellowstone" src = 'assets/images/yellowstone.jpg' alt = 'yellow stone' style = 'height: 100px; width: 100px;'>
+		</ul>
+	</div>
+
+	<div id = "scoretitle">
+		Your total score is:
+	</div>
+
+	<div id = "scorebox"></div>
+
+	<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type = "text/javascript" src = "assets/javascript/game.js"></script>
+
+</body>
+</html>

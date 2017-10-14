@@ -1,0 +1,79 @@
+header {
+	color: white;
+	background-color: #e68a00;
+	height: 40px;
+	width: 540px;
+	font-family: 'Georgia', Times, Times New Roman, 'serif';
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: xx-large;
+	margin-bottom: 20px;
+}
+
+#textbox {
+	width: 500px;
+	height: 280px;
+	color: green;
+	background-color: #ffff99;
+	text-align: justify;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	font-size: 120%;
+}
+
+#randomnumber {
+	height: 60px;
+	width: 240px;
+	background-color: #e6fff7;
+	color: #008000;
+	font-size: xx-large;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	float: left;
+}
+
+#scorekeeper {
+	height: 60px;
+	width: 240px;
+	background-color: #e6fff7;
+	color: #008000;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 40px;
+	font-size: x-large;
+	float: left;
+}
+
+.stones {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+#scoretitle {
+	color: white;
+	font-size: large;
+	width: 200px;
+	height: 30px;
+	background-color: #0080ff;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#scorebox {
+	color: white;
+	font-size: large;
+	width: 200px;
+	height: 60px;
+	background-color: #0080ff;
+	margin-top: 10px;
+	padding-top: 50px;
+	text-align: center;
+	font-size: xx-large;
+}
